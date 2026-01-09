@@ -1,0 +1,96 @@
+:root {
+  --bg-color: #072011;
+  --accent-green: #004D26;
+  --metal-silver: #363636;
+  --metal-gradient: linear-gradient(145deg, #9ea7b0, #c0c5cc);
+  --text-color: #32FF32;
+  --highlight: #39FF14;
+}
+
+body {
+    background: var(--metal-silver);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.tech-tree {
+    width: 800px;
+    margin: 30px auto;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    background: var(--accent-green);
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+    border: 2px solid var(--bg-color);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.tab.active {
+    background: var(--highlight);
+    color: var(--bg-color);
+}
+
+.tree {
+    display: none;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.tree.active {
+    display: grid;
+}
+
+.box {
+    position: relative;
+    background: var(--bg-color);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    height: 90px;
+    border: 2px solid var(--highlight);
+    color: var(--text-color);
+}
+
+.box.locked {
+    filter: grayscale(100%);
+}
+
+.lock-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border-radius: 8px;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+#backBtn{
+    width: 50px;
+    height: 30px;
+    margin-bottom: 10px;
+    background: var(--accent-green);
+    border: 2px solid var(--highlight);
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+#backBtn:hover{
+    background-color: var(--highlight);
+    border-color: var(--bg-color);
+    color: var(--bg-color);
+}

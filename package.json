@@ -1,0 +1,25 @@
+{
+  "name": "missilesimulator",
+  "version": "2.0.0",
+  "description": "A fun game",
+  "license": "MIT",
+  "author": "Joshua Sommerhalder",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "ch.joshua.missilesimulator",
+    "productName": "MissileSimulator",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^39.2.7",
+    "electron-builder": "^26.4.0"
+  }
+}

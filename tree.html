@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Rocket Tech Tree</title>
+    <link rel="stylesheet" href="tree.css">
+</head>
+<body>
+
+<div class="tech-tree">
+
+    <button id="backBtn">Back</button>
+    <div class="tabs">
+        <button class="tab" onclick="showTree('longrange')">Longrange Silo</button>
+        <button class="tab active" onclick="showTree('shortrange')">Shortrange Silo</button>
+    </div>
+
+    
+    <div id="longrange" class="tree"></div>
+    <div id="shortrange" class="tree active"></div>
+
+</div>
+
+<sript src="game.js"></sript>
+<script src="tree.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+:root {
+  --bg-color: #072011;
+  --accent-green: #004D26;
+  --metal-silver: #363636;
+  --metal-gradient: linear-gradient(145deg, #9ea7b0, #c0c5cc);
+  --text-color: #32FF32;
+  --highlight: #39FF14;
+}
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    background-color: var(--accent-green);
+    border-bottom: 10px solid var(--metal-silver);
+    color: var(--text-color);
+}
+
+main{
+    background-color: var(--bg-color);
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main, a{
+    text-decoration: none;
+    color: var(--metal-silver);
+}
+
+#playBtn{
+    
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--accent-green);
+    border: solid 5px var(--highlight);
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+#playBtn:hover{
+    transform: scale(1.1);
+}
+
+#playBtn:active{
+    background-color: var(--highlight);
+    border-color: var(--accent-green);
+    color: var(--metal-silver);
+}
