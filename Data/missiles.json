@@ -1,0 +1,165 @@
+{
+    
+    "shortrange": [
+        {
+            "id": 1,
+            "name": "ATACMS (USA)",
+            "type": "shortrange",
+            "warhead": 230,
+            "radius": 300,
+            "range": 300000,
+            "src": "Models/fattah-1.glb",
+            "unlocked": true
+        },
+        {
+            "id": 2,
+            "name": "SCUD-B (UdSSR)",
+            "type": "shortrange",
+            "warhead": 985,
+            "radius": 750,
+            "range": 300000,
+            "unlocked": false,
+            "stage": 2
+        },
+        {
+            "id": 3,
+            "name": "Iskander-M (Russland)",
+            "type": "shortrange",
+            "warhead": 600,
+            "radius": 450,
+            "range": 500000,
+            "unlocked": false,
+            "stage": 3
+        }
+    ],
+
+
+    "longrange": [
+        { 
+            "name": "Tomahawk (USA)",
+            "type": "cruise missile",
+            "warhead": 450,
+            "radius": 400,
+            "range": 1600000,
+            "unlocked": true
+        },
+        {
+            "name": "DF-21 (China)",
+            "type": "middlerange ballistic",
+            "warhead": 600,
+            "radius": 1500,
+            "range": 1500000,
+            "unlocked": false,
+            "stage": 2
+        },
+        {
+            "name": "AN602",
+            "type": "thermobaric",
+            "warhead": 57000,
+            "radius": 35000,
+            "range": 1000000,
+            "unlocked": false,
+            "stage": 3
+        },
+        { 
+            "name": "RS-28 Sarmat (Russland)",
+            "type": "dreistufige Feststoffrakete",
+            "warhead": 10000,
+            "radius": 5000,
+            "range": 18000000,
+            "unlocked": false,
+            "stage": 4
+        },
+        {
+            "name": "R-36M2 Voyevoda (UdSSR/Russland)",
+            "type": "ballistic",
+            "warhead": 8800,
+            "radius": 500,
+            "range": 16000000,
+            "unlocked": false,
+            "stage": 5
+        },
+        {
+            "name": "RT-2PM2 Topol-M / SS-27 (Russland)",
+            "type": "ballistic",
+            "warhead": 1200,
+            "radius": 200,
+            "range": 11000000,
+            "unlocked": false,
+            "stage": 6
+        },
+        {
+            "name": "RS-24 Yars / SS-29 (Russland)",
+            "type": "ballistic",
+            "warhead": 1500, 
+            "radius": 300,
+            "range": 12000000,
+            "unlocked": false,
+            "stage": 7
+        },
+        {
+            "name": "DF-5A (China)",
+            "type": "ballistic",
+            "warhead": 3000,
+            "radius": 500,
+            "range": 13000000,
+            "unlocked": false,
+            "stage": 8
+        },
+        {
+            "name": "DF-41 (China)",
+            "type": "ballistic",
+            "warhead": 2500,
+            "radius": 300,
+            "range": 15000000,
+            "unlocked": false,
+            "stage": 9
+        },
+        {
+            "name": "Minuteman III (USA)",
+            "type": "ballistic",
+            "warhead": 300,
+            "radius": 200,
+            "range": 13000000,
+            "unlocked": false,
+            "stage": 10
+        },
+        {
+            "name": "Trident II D5 (USA/UK)",
+            "type": "ballistic",
+            "warhead": 450,
+            "radius": 150,
+            "range": 12000000,
+            "unlocked": false,
+            "stage": 11
+        },
+        {
+            "name": "Agni-V (Indien)",
+            "type": "ballistic",
+            "warhead": 1500,
+            "radius": 300,
+            "range": 5000000,
+            "unlocked": false,
+            "stage": 12
+        },
+        {
+            "name": "Hwasong-15 (Nordkorea)",
+            "type": "ballistic",
+            "warhead": 1000,
+            "radius": 300,
+            "range": 13000000,
+            "unlocked": false,
+            "stage": 13
+        },
+        {
+            "name": "Hwasong-17 (Nordkorea)",
+            "type": "ballistic",
+            "warhead": 2000,
+            "radius": 300,
+            "range": 15000000,
+            "unlocked": false,
+            "stage": 14
+        }
+    ]
+    
+}

@@ -1,0 +1,72 @@
+{
+    "base": [
+        {
+            "id": 1,
+            "name": "Mainbase",
+            "type": "base",
+            "icon": "Images/mainBase.png",
+            "income": 100,
+            "range": 100000000,
+            "iconX": 30,
+            "iconY": 30,
+            "unlocked": true
+        },
+        {
+            "id": 2,
+            "name": "Factory",
+            "type": "base",
+            "icon": "Images/factory.png",
+            "range": 100000,
+            "income": 200,
+            "iconX": 50,
+            "iconY": 50,
+            "stage": 2,
+            "unlocked": false
+        }
+    ],
+    "attack": [
+        {
+            "name": "Missilesilo",
+            "type": "longrange",
+            "icon": "Images/missileSilo.png",
+            "range": null,
+            "rangeCircle": null,
+            "iconX": 30,
+            "iconY": 30,
+            "stage": 4,
+            "unlocked": false
+        },
+        {
+            "name": "Shortrange Silo",
+            "type": "shortrange",
+            "icon": "Images/shortrangeSilo.png",
+            "range": null,
+            "rangeCircle": null,
+            "iconX": 30,
+            "iconY": 30,
+            "unlocked": true
+        }
+    ],
+    "defense": [
+        {
+            "name": "Airdefense",
+            "type": "defense",
+            "icon": "Images/airDefense.png",
+            "range": 10000,
+            "iconX": 30,
+            "iconY": 30,
+            "hitOdds": 0.1,
+            "unlocked": true
+        },
+        {
+            "name": "Missiledefense",
+            "type": "defense",
+            "icon": "Images/missileDefense.png",
+            "range": 100000,
+            "iconX": 30,
+            "iconY": 30,
+            "hitOdds": 0.02,
+            "unlocked": true
+        }
+    ]
+}
