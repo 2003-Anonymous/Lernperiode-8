@@ -1,30 +1,11 @@
-# Lern-Periode 7
+# Lern-Periode 8
 
-24.10. bis 19.12.2025
+## Technologien
+# Electron
+Ich habe mich für diese Technologie entschieden, weil ich aus meinem letzten Lernperiodenprojekt eine Desktop-App machen möchte. Dafür scheint mir diese Technologie gut geeignet. Zudem gibt es auf der Webseite schon ein eingebautes Toutorial.
 
-## Grob-Planung
+# Three.js
+Diese Technologie möchte ich anschauen, weil ich schon einmal 3D-Modelle benutzt habe und ich noch mehr darüber lernen möchte. Zudem kann das für die Web-Gameentwicklung sehr hilfreich sein und somit auch für meine Lernperiode-7.
 
-1. Für welche API möchten Sie ein eigenes *front end* erstellen?
-2. Welche groben Funktionalitäten soll Ihr *front end* zur Verfügung stellen?
-3. Was möchten Sie insbesondere dabei lernen oder üben?
-
-## 24.10.
-
-- [ ] Arbeitspaket 1: Erstellen Sie mehrere Skizzen von Ihrem *front end*. Überlegen Sie sich auch, welche Elemente die Interaktion mit dem *back end* auslösen und wie sich die Oberfläche dadurch verändert. Bauen Sie auch Interaktionen ein, die *keinen* Aufruf der API benötigen, sondern sich im *client* bearbeiten lassen (sortieren, suchen etc.)
-- [ ] Arbeitspaket 2: Setzen Sie in HTML und CSS Ihren Entwurf auf rudimentäre Weise um.
-- [ ] Arbeitspaket 3: Schreiben Sie ersten JS-Code als *proof of concept* (bspw. Meldung bei Klick auf Knopf-Element)
-
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, einen ersten Code und Skizzen auf github hochzuladen!
-
-## 31.10.
-
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
-
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+# React.js
+Für dieses Framework habe ich mich entschieden, weil es sehr bekannt ist und ich in letzter Zeit sehr viel mit JavaScript gearbeitet habe. Also kann es nicht Schaden, dort mit einem häufig verwendetem Framework ein wenig vertraut zu sein.
